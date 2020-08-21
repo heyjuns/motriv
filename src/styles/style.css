@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+    font-family: "Lato", sans-serif;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+nav {
+    font-weight: 700;
+}
+.bg-black {
+    background-color: #141414;
+}
+
+nav,
+.jumbotron .container .title {
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: white;
+}
+.jumbotron {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding:unset;
+}
+.overlay-bg{
+    padding:4rem 0;
+    background-image : linear-gradient(to right, #ed1d24 125px, #ed1d249b 100%);
+}
+.navbar-brand {
+    color: #ed1d24 !important;
+    padding: 20px;
+    font-size: 24px;
+}
+footer {
+    background: #141414;
+}
+.jumbotron .lead,
+.navbar-text {
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+}
+#listMovie div {
+    margin-top: 16px;
+}
+.card-body > img {
+    display: block;
+    margin: 0 auto;
+}
+.footer {
+    margin-top: 32px;
+}
+.footer div {
+    padding: 16px;
+    color: white;
+    font-style: italic;
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+.img-fluid {
+    border-radius: 10px;
+}
+.highlight {
+    border: unset;
+}
+.highlight .card-body .title {
+    color: gold;
+}
+.img-container img {
+    width: 350px;
+}
+
+.highlight-card {
+    color: white;
+}
+.highlight-card .highlight-rating{
+    margin: 16px 0;
+}
+.highlight-card .highlight-overview h5{
+    font-weight: 700;
+}
+.highlight-card .highlight-title .title{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.highlight-card .highlight-rating h6{
+    display: inline;
+    margin-right:25px;
+}
+.btn-custom{
+    display: block;
+}
+.poster-button{
+    cursor: pointer;
+}
+@media screen and (max-width: 513px) {
+    .navbar{
+        text-align: center !important;
+    }
+    .navbar a{
+        margin: 0 auto;
+    }
+    .highlight-card .card-body{
+        text-align: center !important;
+    }
+    .img-container img {
+        width: 220px;
+        display: block;
+        margin: 0 auto;
+    }
+    .overlay-bg{
+        padding:4rem 0;
+        background-image : linear-gradient(to bottom, #ed1d24 125px, #ed1d249b 100%);
+    }
+    .highlight-card .highlight-title .title{
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+}
